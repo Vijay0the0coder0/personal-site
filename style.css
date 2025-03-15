@@ -1,0 +1,24 @@
+.body{
+    background:url('img/sys.jpg');
+    background-size: cover;
+}
+.top-title{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkslategray;
+}
+.top-title-list img {
+    margin: 5px;
+    width: 30px;
+
+}
+.top-title-list{
+    display: flex;
+}
+.profile-pic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
