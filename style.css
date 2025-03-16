@@ -1,24 +1,36 @@
-.body{
-    background:url('img/sys.jpg');
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url('img/wood.jpg');
     background-size: cover;
-}
-.top-title{
-    margin: 0px;
-    padding: 0px;
-    background-color: darkslategray;
-}
-.top-title-list img {
-    margin: 5px;
-    width: 30px;
+    background-repeat: no-repeat;
+   
 
 }
-.top-title-list{
-    display: flex;
+.selfbody{
+    background-image: url('img/ai2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+
 }
-.profile-pic img{
+.self-intro img{
+    display:inline ;
+    margin-top: 20px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover;
-
+}
+.myname h1,h2{
+    margin-top:-30px;
+    padding: 10px;
+    color: aquamarine;
+}
+.myname h2,p{
+    margin-top: -60px;
+}
+.myname p{
+    padding-bottom:20px;
 }
