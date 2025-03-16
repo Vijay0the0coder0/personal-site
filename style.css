@@ -1,19 +1,20 @@
 body{
     margin:0px;
     padding:0px;
-    background-image: url('img/wood.jpg');
+    background-image: url('img/retro.jpg');
     background-size: cover;
     background-repeat: no-repeat;
    
 
 }
+/*home styles*/
 .selfbody{
-    background-image: url('img/ai2.jpg');
+    background-image: url('img/wood2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 80px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 110px;
+    margin-right: 110px;
 
 }
 .self-intro img{
@@ -22,6 +23,9 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+.self-intro p{
+    color: beige;
 }
 .myname h1,h2{
     margin-top:-30px;
@@ -33,4 +37,13 @@ body{
 }
 .myname p{
     padding-bottom:20px;
+}
+/*details*/
+.details{
+    margin-left: 110px;
+    margin-right: 110px;
+    background-color: rgb(29, 6, 6);
+}
+.details li{
+    display: inline;
 }
