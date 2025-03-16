@@ -1,9 +1,11 @@
+
+
 body{
     margin:0px;
     padding:0px;
     background-image: url('img/retro.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
    
 
 }
@@ -40,10 +42,39 @@ body{
 }
 /*details*/
 .details{
-    margin-left: 110px;
-    margin-right: 110px;
-    background-color: rgb(29, 6, 6);
+    margin: 20px;
+    padding: 20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: rgb(111, 80, 80);
+    
 }
-.details li{
+button {
+    background: linear-gradient(45deg, #ff416c, #d5e617);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #d5e617, #ff416c);
+    transform: scale(1.05);
+}
+
+  
+
+/*footer*/
+footer ul,li,a,img{
     display: inline;
+    
+}
+footer img{
+    width: 20px;
 }
