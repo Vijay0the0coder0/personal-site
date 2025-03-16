@@ -19,6 +19,7 @@ body{
     margin-right: 110px;
 
 }
+
 .self-intro img{
     display:inline ;
     margin-top: 20px;
@@ -29,12 +30,13 @@ body{
 .self-intro p{
     color: beige;
 }
+
 .myname h1,h2{
     margin-top:-30px;
     padding: 10px;
     color: aquamarine;
 }
-.myname h2,p{
+.myname p{
     margin-top: -60px;
 }
 .myname p{
@@ -77,4 +79,80 @@ footer ul,li,a,img{
 }
 footer img{
     width: 20px;
+}
+@media screen and (max-width:450px){
+    .selfbody{
+        background-image: url('img/wood2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+}
+.self-intro img{
+    display:inline ;
+    margin-top: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.self-intro p{
+    color: beige;
+}
+
+.myname h1,h2{
+    margin-top:-30px;
+    padding: 10px;
+    color: aquamarine;
+}
+.myname p{
+    margin-top: -60px;
+}
+.myname p{
+    padding-bottom:20px;
+}
+.details{
+    margin: 20px;
+    padding: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+   
+    
+}
+.one{
+    
+    flex-basis:40%;
+}
+button {
+    background: linear-gradient(45deg, #ff416c, #d5e617);
+    color: white;
+    padding: 9px 24px;
+    border-block-style:revert-layer;
+    margin:10px;
+    border-radius: 25px;
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #d5e617, #ff416c);
+    transform: scale(1.05);
+}
+
+  
+
+/*footer*/
+footer ul,li,a,img{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+footer img{
+    width: 30px;
+}
 }
