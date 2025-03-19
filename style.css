@@ -11,7 +11,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-image: url('img/freepik__beach-house-web-background-with-landscape__44020.jpeg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat-y;
     
 
@@ -111,11 +111,11 @@ h2 {
 
 .navbar img {
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
     display: flex;
     flex-direction: row;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     align-items: center;
 
