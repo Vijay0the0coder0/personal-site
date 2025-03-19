@@ -11,9 +11,9 @@ body {
     margin: 0px;
     padding: 0px;
     background-image: url('img/freepik__beach-house-web-background-with-landscape__44020.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    background-size: contain;
+    background-repeat: repeat-y;
+    
 
 
 }
@@ -93,6 +93,10 @@ h2 {
     text-decoration: none;
     color: rgb(237, 108, 23);
 }
+.resume-text:hover{
+    color: chartreuse;
+
+}
 
 /*details*/
 .navbar {
@@ -161,12 +165,14 @@ h2 {
 .active {
     color:rgb(48, 35, 186);
     border-bottom: #e5ebe6 solid;
+    z-index: 100;
 }
 
 
 /*footer*/
 footer{
     background-color: rgb(86, 232, 222,.6);
+    width: 100%;
 
 }
 .contact {
@@ -178,7 +184,7 @@ footer{
     font-weight: 500;
     margin-top: 10px;
     padding-top: 10px;
-    color: rgb(223, 81, 81);
+    color: rgb(77, 5, 86);
 }
 .contact-details {
     display:flex;
@@ -213,5 +219,16 @@ footer{
     color: #ed1b1b;
     
 
+}
+.social a i{
+    border:#ed1b1b solid 5px;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 5px;
+
+}
+.social a i:hover{
+    border:#1e11d8 solid 5px;
+    color: #1e11d8;
 }
 @media screen and (max-width:450px) {}
